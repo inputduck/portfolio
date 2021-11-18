@@ -71,7 +71,7 @@ footer {
 }
 
 .options a {
-    margin: 20px 10px;
+    margin: 40px 10px;
 }
 
 
@@ -101,10 +101,17 @@ a {
     height: 33%;
 }
 
+@media only screen and (max-width: 600px) {
+    .socials {
+        display: none;
+    }
+}
+
+
 .wave {
     fill: rgba(0,0,0,0.9);
     width: 100vw;
-    height: 65vh;
+    height: 55vh;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -142,4 +149,19 @@ a:hover {
 
 .sub-pages-footer {
     position: relative;
+}
+
+/*about page*/
+
+.about-me {
+    width: 50%;
+    text-align: center;
+   
+
+}
+
+.about-me img {
+    height: 200px;
+    border-radius: 35%;
+    margin: 40px 10px 10px 10px;
 }
