@@ -169,3 +169,68 @@ a:hover {
 /*contact page*/
 
 
+.form-submit {
+    width: 50%;
+}
+
+.form-submit form {
+    width: 100%;
+}
+
+.form-submit .form-row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.form-row .form-control {
+    width: 50%;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    
+    
+
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: none;
+    font-size: 20px;
+    margin: 5px 0 ;
+    align-self: center;
+}
+
+.comment-box {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    align-self: center;
+    width: 97%;
+    margin: 0;
+
+}
+
+.sub-btn-div {
+    display: flex;
+    align-items: flex-end;
+    
+
+}
+
+.sub-btn {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 25%;
+    margin-top: 15px;
+    padding: 5px;
+    font-size: 20px;
+    background-color: rgb(158,158,158);
+    border: none;
+    border-radius: 3px;
+
+    
+    
+
+}

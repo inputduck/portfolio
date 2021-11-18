@@ -16,6 +16,7 @@
     </header>
 
     <section>
+        <div class="form-submit">
         <h2 class="subtitle">submit</h2>
         <form action="https://formsubmit.co/your@email.com" method="POST">
             <input type="hidden" name="_next" value="thanks.html">
@@ -23,11 +24,15 @@
             <input  name="name" class="form-control" placeholder="Full Name" required>
             <input  name="email" class="form-control" placeholder="Email" required>
         </div>
-        <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
-        <button>Submit Form</button>
+        <div class="comment">
+            <textarea class="comment-box" placeholder="Your Message" name="message" rows="10" required></textarea>
+            <div class="sub-btn-div">
+                <button class="sub-btn">Submit</button>
+            </div>
+        </div>
         
         </form>
-
+    </div>
     </section>
 
     <footer class = "sub-pages-footer">
