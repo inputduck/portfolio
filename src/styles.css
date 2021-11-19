@@ -210,6 +210,7 @@ a:hover {
     align-self: center;
     width: 97%;
     margin: 0;
+    resize: none;
 
 }
 
@@ -229,8 +230,42 @@ a:hover {
     background-color: rgb(158,158,158);
     border: none;
     border-radius: 3px;
+}
 
-    
-    
+@media only screen and (max-width: 600px) {
+    .form-submit .form-row {
+        display: flex;
+        flex-direction: column;
+        margin: -2px;
+        padding: 5px;
+       
+    }
+
+    .form-submit .form-control {
+        width: 100%;
+        margin: 0 0 4px 0;
+        padding: 1px;
+        
+    }
+
+    .form-submit .comment-box {
+        display: flex;
+        width: 100%;
+        /*padding:0;
+        
+        margin: 0;*/
+        justify-content: center;
+
+    }
+
+    .comment {
+        padding: 0;
+       
+    }
+
+    .sub-btn {
+        font-size: 10px;
+        padding: 2px;
+    }
 
 }
