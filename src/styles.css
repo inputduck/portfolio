@@ -29,6 +29,10 @@ h1 {
 
 }
 
+
+
+
+
 .subtitle {
     font-size: 50px;
 }
@@ -268,4 +272,40 @@ a:hover {
         padding: 2px;
     }
 
+    .subtitle {
+        font-size: 30px;
+
+    }
+    h1 {
+        font-size: 100px;
+        font-weight: 300;
+        margin: 0;
+        color: rgba(255,255,255,0.3)
+    
+    }
+
+    .wave {
+        fill: rgba(0,0,0,0.9);
+        width: 100vw;
+        height: 35vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    
+    }
+
+    footer{
+        max-height: 35vh;
+    }
+
+    footer .subtitle {
+        text-align: center;
+    }
+
+    .about-me img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        justify-self: center;
+    }
 }
